@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title | default: "Home" }} | Warp</title>
+    <meta name="description" content="Efficient decentralized exchange" />
+    <meta property="og:title" content="Warp" />
+    <meta property="og:description" content="Efficient decentralized exchange" />
+    <meta property="og:url" content="https://warp.io" />
+    <meta property="og:image" content="https://www.warp.io/img/warp-logo-black.svg" />
+    <link rel="icon" href="{{ '/img/favicon.svg' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/pico.classless.min.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/css/warp.css' | url }}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ol>
+          <li><a href="/#">Blog</a></li>
+        </ol>
+      </nav>
+    </header>
+    <main>{{ content }}</main>
+  </body>
+</html>

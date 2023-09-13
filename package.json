@@ -1,0 +1,35 @@
+{
+  "name": "@warpdex/website",
+  "version": "0.0.0",
+  "description": "marketing website for warp",
+  "keywords": [
+    "11ty",
+    "bitcoin",
+    "blog",
+    "cryptocurrency",
+    "defi",
+    "dex",
+    "eleventy",
+    "ethereum",
+    "exchange",
+    "warp"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/warpdex/website.git",
+  "homepage": "https://github.com/warpdex/website",
+  "bugs": {
+    "url": "https://github.com/warpdex/website/issues"
+  },
+  "author": "The Warp Developers",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
