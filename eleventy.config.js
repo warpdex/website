@@ -10,6 +10,6 @@ module.exports = function(cfg) {
       input: "src",
       output: "_site"
     },
-    pathPrefix: "/website"
+    pathPrefix: "/"
   };
 };
