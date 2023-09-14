@@ -208,3 +208,9 @@ button img {
     min-height: calc(850px - 10vh);
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white;
+  }
+}
