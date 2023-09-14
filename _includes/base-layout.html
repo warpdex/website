@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ title | default: "Home" }} | Warp</title>
     <meta name="description" content="Efficient decentralized exchange" />
-    <meta property="og:title" content="Warp" />
+    <meta property="og:title" content="{{ title | default: 'Home' }} | Warp" />
     <meta property="og:description" content="Efficient decentralized exchange" />
     <meta property="og:url" content="https://warp.io" />
-    <meta property="og:image" content="https://www.warp.io/img/warp-logo-black.svg" />
+    <meta property="og:image" content="https://www.warp.io/img/warp-logo-black.png" />
     <link rel="icon" href="{{ '/img/favicon.svg' | url }}" />
     <link rel="stylesheet" href="{{ '/css/pico.classless.min.css' | url }}" />
     <link rel="stylesheet" href="{{ '/css/warp.css' | url }}" />
