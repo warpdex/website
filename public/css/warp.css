@@ -90,7 +90,7 @@ body > main {
   justify-content: center;
   background-image: url("../img/background.svg");
   background-position: center top;
-  background-size: cover;
+  background-size: contain;
   margin-top: 10vh;
   padding: 0;
 }
