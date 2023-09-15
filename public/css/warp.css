@@ -57,7 +57,7 @@ body {
 body > header {
   align-items: center;
   background-color: white;
-  display: flex;
+  display: none;
   height: 10vh;
   justify-content: flex-end;
   left: 50%;
